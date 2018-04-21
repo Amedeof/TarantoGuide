@@ -3,4 +3,40 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beach_1">Spiaggia Sole</string>
+    <string name="beach_2">Spiaggia Mare</string>
+    <string name="beach_3">Spiaggia Blu</string>
+    <string name="beach_4">Spiaggia Rossa</string>
+    <string name="beach_5">Spiaggia Gialle</string>
+    <string name="restaurant_1">Ristorante Pasta</string>
+    <string name="restaurant_2">Ristorante Pizza</string>
+    <string name="restaurant_3">Ristorante Mare</string>
+    <string name="restaurant_4">Ristorante Carne</string>
+    <string name="museum_1">Museo Statale</string>
+    <string name="museum_2">Museo Spartano</string>
+    <string name="poi_1">Ponte Girevole</string>
+    <string name="poi_2">Castello</string>
+    <string name="poi_3">Colonne doriche</string>
+    <string name="poi_4">Parco Archeolgico</string>
+    <string name="poi_5">Parco Cimino</string>
+    <string name="address_beach_1">Via Taranto , 1</string>
+    <string name="address_beach_2">Via Taranto , 2</string>
+    <string name="address_beach_3">Via Taranto , 3</string>
+    <string name="address_beach_4">Via Taranto , 4</string>
+    <string name="address_beach_5">Via Taranto , 5</string>
+    <string name="address_restaurant_1">Via Taranto , 6</string>
+    <string name="address_restaurant_2">Via Taranto , 7</string>
+    <string name="address_restaurant_3">Via Taranto , 8</string>
+    <string name="address_restaurant_4">Via Taranto , 9</string>
+    <string name="address_meseum_1">Via Taranto , 10</string>
+    <string name="address_meseum_2">Via Taranto , 11</string>
+    <string name="address_poi_1">Via Taranto , 12</string>
+    <string name="address_poi_2">Via Taranto , 13</string>
+    <string name="address_poi_3">Via Taranto , 14</string>
+    <string name="address_poi_4">Via Taranto , 15</string>
+    <string name="address_poi_5">Via Taranto , 16</string>
+    <string name="category_poi">POI</string>
+    <string name="category_restaurants">Food</string>
+    <string name="category_meseums">Meseum</string>
+    <string name="category_beaches">Beach</string>
 </resources>

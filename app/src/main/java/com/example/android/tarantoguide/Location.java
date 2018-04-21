@@ -6,8 +6,8 @@ public class Location {
      * Parameters of Location object
      */
 
-    private String mNameLocation;
-    private String mAddressLocation;
+    private int mNameLocation;
+    private int mAddressLocation;
     private int mImageLocation;
 
     /**
@@ -19,7 +19,7 @@ public class Location {
     /*
     Constructor
      */
-    public Location(String nameLocation, String addressLocation, int imageLocation) {
+    public Location(int nameLocation, int addressLocation, int imageLocation) {
         mNameLocation = nameLocation;
         mAddressLocation = addressLocation;
         mImageLocation = imageLocation;
@@ -29,14 +29,14 @@ public class Location {
 Get Location's name
  */
 
-    public String getNameLocation() {
+    public int getNameLocation() {
         return mNameLocation;
     }
 /*
 Get Location's address
  */
 
-    public String getAddressLocation() {
+    public int getAddressLocation() {
         return mAddressLocation;
     }
 

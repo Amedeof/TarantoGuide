@@ -36,10 +36,10 @@ public class RestaurantFragment extends Fragment {
 
         // Create a fake list of earthquake locations.
         ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Ristorante Città Vecchia", "Via Lungomare 1, Taranto", R.drawable.ristorante_1));
-        locations.add(new Location("Ristorante Momò", "Corso Antico 12, Taranto", R.drawable.ristorante_2));
-        locations.add(new Location("Ristorante La Sirentta", "Corso Nuovo 4, Taranto", R.drawable.ristorante_3));
-        locations.add(new Location("Ristorante Il Faro", "Via Principe 56, Taranto", R.drawable.ristorante_4));
+        locations.add(new Location(R.string.restaurant_1, R.string.address_restaurant_1, R.drawable.ristorante_1));
+        locations.add(new Location(R.string.restaurant_2, R.string.address_restaurant_2, R.drawable.ristorante_2));
+        locations.add(new Location(R.string.restaurant_3, R.string.address_restaurant_3, R.drawable.ristorante_3));
+        locations.add(new Location(R.string.restaurant_4, R.string.address_restaurant_4, R.drawable.ristorante_4));
 
 
         LocationAdapter Location = new LocationAdapter(getActivity(), locations);

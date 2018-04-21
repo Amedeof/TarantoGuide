@@ -36,9 +36,8 @@ public class MesuemFragment extends Fragment {
 
         // Create a fake list of earthquake locations.
         ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Museo Nazionale", "Via Cavour, 10, 74123 Taranto TA, Italia", R.drawable.museum_1));
-        locations.add(new Location("Museo Spartano", "Corso Vittorio Emanuele II, 39, 74123 Taranto TA, Italia", R.drawable.museum_2));
-
+        locations.add(new Location(R.string.museum_1, R.string.address_meseum_1, R.drawable.museum_1));
+        locations.add(new Location(R.string.museum_2, R.string.address_meseum_2, R.drawable.museum_2));
 
         LocationAdapter Location = new LocationAdapter(getActivity(), locations);
         final ListView listView = (ListView) rootview.findViewById(R.id.list);

@@ -1,5 +1,6 @@
 package com.example.android.tarantoguide;
 
+import android.content.Context;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v4.app.FragmentManager;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        FragmentAdapter adapter = new FragmentAdapter(getSupportFragmentManager());
+        FragmentAdapter adapter = new FragmentAdapter(this, getSupportFragmentManager());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

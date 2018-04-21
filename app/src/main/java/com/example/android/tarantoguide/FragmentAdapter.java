@@ -1,5 +1,6 @@
 package com.example.android.tarantoguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -7,11 +8,11 @@ import android.widget.Adapter;
 
 public class FragmentAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[]{"Food", "Museums",
-            "POI", "Beaches"};
+    private Context mContext;
 
-    public FragmentAdapter(FragmentManager fm) {
+    public FragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
 
     @Override
@@ -27,16 +28,17 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         }
     }
 
+
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return tabTitles[0];
+            return mContext.getString(R.string.category_restaurants);
         } else if (position == 1) {
-            return tabTitles[1];
+            return mContext.getString(R.string.category_poi);
         } else if (position == 2) {
-            return tabTitles[2];
+            return mContext.getString(R.string.category_meseums);
         } else {
-            return tabTitles[3];
+            return mContext.getString(R.string.category_beaches);
         }
     }
 

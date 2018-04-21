@@ -34,11 +34,11 @@ public class TurismFragment extends Fragment {
 
         // Create a fake list of earthquake locations.
         ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Ponte Girevole", "Ponte S. Francesco da Paola, 74100 Taranto TA, Italia", R.drawable.turism_1));
-        locations.add(new Location("Castello Aragonese", "Piazza Castello, 4, 74123 Taranto TA, Italia", R.drawable.turism_2));
-        locations.add(new Location("Colonne Doriche", "Via Duomo, 74123 Taranto TA, Italia", R.drawable.turism_3));
-        locations.add(new Location("Parco Archeologico", "Via G. Lacaita, 5, 74121 Taranto TA, Italia", R.drawable.turism_4));
-        locations.add(new Location("Parco Cimino", "Pineta Cimino, 74121 Taranto TA, Italia", R.drawable.turism_5));
+        locations.add(new Location(R.string.poi_1, R.string.address_poi_1, R.drawable.turism_1));
+        locations.add(new Location(R.string.poi_2, R.string.address_poi_2, R.drawable.turism_2));
+        locations.add(new Location(R.string.poi_3, R.string.address_poi_3, R.drawable.turism_3));
+        locations.add(new Location(R.string.poi_4, R.string.address_poi_4, R.drawable.turism_4));
+        locations.add(new Location(R.string.poi_5, R.string.address_poi_5, R.drawable.turism_5));
 
 
         LocationAdapter Location = new LocationAdapter(getActivity(), locations);
